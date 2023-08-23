@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282828;
+    text-align: center; /* center the content */
+    font-family: Arial, sans-serif;
+    padding-top: 20%; /* add some padding on the top */
+}
+
+#main {
+    text-align: center;
+}
+
+h1 {
+    color: #d4be98;
+}
+
+a {
+    display: block; /* make links line by line */
+    margin: 1em 0; /* add margins above and below */
+    text-decoration: none; /* remove underline */
+    color: #d4be98;
+}
