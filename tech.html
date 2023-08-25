@@ -1,0 +1,7 @@
+---
+layout: home
+title:  "tech"
+---
+{% for post in site.categories.tech %}
+  <a href="{{ post.url }}">{{ post.title }} · {{ post.date | date: "%-d/%-m/%y" }}</a>
+{% endfor %}

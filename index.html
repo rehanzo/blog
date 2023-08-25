@@ -1,14 +1,9 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rehanzo blog</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>rehanzo</h1>
-    <a href='posts/test-08-23-23.html'>blog</a>
-</body>
-</html>
+---
+layout: home
+title:  "blog"
+date:   2023-08-24
+---
+{%- assign page = site.pages | where: 'title', 'tech' | first-%}
+<a href="{{ page.url }}">{{ page.title }}</a>
+{%- assign page = site.pages | where: 'title', 'life' | first-%}
+<a href="{{ page.url }}">{{ page.title }}</a>

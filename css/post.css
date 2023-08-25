@@ -1,0 +1,92 @@
+@import "gruvbox.css";
+
+:root {
+  --bg-color: #282828;
+  --fg-color: #d4be98;
+  --base-size: 60ch;
+  --base-size-max: 80vw;
+  --base-size-cutin: calc(var(--base-size) - 5ch);
+  --purple: #AF99BF;
+  --grey2: #a89984;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--fg-color);
+  font-size: 1.05em;
+  line-height: 32px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: Comic Neue, sans-serif;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: var(--base-size-max);
+  width: var(--base-size);
+  text-align: start;
+  display: block;
+  margin: 1em auto;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: start;
+  max-width: var(--base-size-max);
+  width: var(--base-size);
+  margin: 1em auto;
+  text-decoration: none;
+  display: block;
+  font-size: 1.2em;
+  color: var(--purple);
+}
+
+.image-caption {
+  text-align: center;
+  font-size: .8rem;
+  color: var(--grey2);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+pre code,
+p,
+blockquote {
+  display: block;
+  margin: 1em auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--grey2);
+  max-width: var(--base-size-max);
+  width: var(--base-size-cutin);
+  margin: 1em auto;
+}
+
+blockquote {
+  position: relative;
+  font-style: italic;
+  box-sizing: border-box;
+  padding-left: 50px;
+  border-left: 2px solid var(--grey2);
+  background-color: #32302f;
+}
+
+h1 {
+  font-size: 2em;
+}
