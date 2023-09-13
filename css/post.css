@@ -22,7 +22,7 @@
 body {
   background-color: var(--bg-color);
   font-family: Comic Neue, sans-serif;
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 5rem;
   max-width: var(--base-size-max);
   width: var(--base-size);
@@ -34,6 +34,7 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 2em;
 }
 
 h2,
