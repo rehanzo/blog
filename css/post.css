@@ -19,6 +19,11 @@
   line-height: 32px;
 }
 
+img {
+  max-width: var(--base-size-max);
+  max-height: 35vw
+}
+
 body {
   background-color: var(--bg-color);
   font-family: Comic Neue, sans-serif;
