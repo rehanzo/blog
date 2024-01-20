@@ -103,12 +103,19 @@ blockquote {
 
 
 @media only screen and (min-width: 825px) {
-
-  /* This is the breakpoint you decide based on your layout. */
   img {
     float: left;
     margin: 1em 1em;
-    /* you can change this to 'left' according to your needs */
-    /*You can adjust this according to your needs.*/
   }
+}
+
+a {
+  color: #AF99BF;
+}
+
+p.first-image img {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

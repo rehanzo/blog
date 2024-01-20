@@ -1,33 +1,32 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #d4be98;
-    font-size: 1.03em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #d4be98;
+  font-size: 1.03em;
 }
 
 body {
-    background-color: #282828;
-    text-align: center;
-    font-family: Comic Neue, sans-serif;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  background-color: #282828;
+  text-align: center;
+  font-family: Comic Neue, sans-serif;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 a {
-    display: block;
-    margin: 1em 0;
-    text-decoration: none;
-    color: #AF99BF;
+  display: block;
+  margin: 1em 0;
+  text-decoration: none;
+  color: #AF99BF;
 }
 
 p {
-    display: block;
-    margin: 1em 0;
-    text-decoration: none;
+  display: block;
+  margin: 1em 0;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
