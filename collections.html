@@ -1,0 +1,7 @@
+---
+layout: home
+title:  "collections"
+---
+{% for post in site.categories.collections %}
+  <a href="{{ post.url }}">{{ post.title }} · {{ post.date | date: "%-d/%-m/%y" }}</a>
+{% endfor %}

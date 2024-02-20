@@ -1,9 +1,11 @@
 ---
 layout: home
-title:  "blog"
-date:   2023-08-24
+title: "blog"
+date: 2023-08-24
 ---
 {%- assign page = site.pages | where: 'title', 'tech' | first-%}
 <a href="{{ page.url }}">{{ page.title }}</a>
 {%- assign page = site.pages | where: 'title', 'life' | first-%}
+<a href="{{ page.url }}">{{ page.title }}</a>
+{%- assign page = site.pages | where: 'title', 'collections' | first-%}
 <a href="{{ page.url }}">{{ page.title }}</a>
